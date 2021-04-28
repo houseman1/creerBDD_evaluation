@@ -1,0 +1,24 @@
+Pour faire la sauvegarde :
+
+J'ai créé un répertoire nommé Backup sur le disque C pour sauvegarder le 'dump' backup_gescom_afpa.sql.
+
+J'ai lancer l'invite de commande Windows et j'ai tapé C:\wamp64\bin\mysql\mysql8.0.18\bin pour me positionner dans le répertoire d'installation de MariaDB, où se trouve le fichier mysqldump.exe.
+
+J'ai saisi la commande : mysqldump --user=root --password= --databases afpa_gescom > C:\Backup\backup_gescom_afpa.sql 
+
+Cette commande indique le chemin complet du répertoire dans lequel on veut stocker le fichier de sauvegarde (C:\Backup\) et le nom du fichier de sauvegarde (backup_gescom_afpa.sql).
+
+
+
+Pour la restauration :
+
+J'ai renommé la base 'gescom_afpa\renamed_' pour ne pas écraser la base actuelle déjà dans PhpMyAdmin et, avec l'invite de commande Windows, je me suis repositionné dans le répertoire d'installation de MariaDB.
+
+J'ai tapé la commande: mysql --user=root --password= < C:\Backup\backup_gescom_afpa.sql pour faire la restauration.
+
+La commande mysql à lancée l'exécutable mysql.exe situé dans C:\wamp\bin\mysql\mysql8.0.18\bin où se trouve le fichier pour restaurer.
+
+La commande s'est connectée avec PhpMyAdmin avec l'utilisateur 'root' qui n'a pas de mot de passe (--user=root --password= ) et le chemin vers le fichier de sauvegarde (C:\Backup\) et le nom que prendra la base de données restaurée (backup_gescom_afpa.sql).
+
+Maintenant, il y a un fichier dans le répertoire Backup appelé backup_gescom_afpa.sql et deux base en MyPhpAdmin appelés afpa_gescom et gescom_afpa\renamed_.
+  

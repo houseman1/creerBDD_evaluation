@@ -1,0 +1,61 @@
+﻿1. pro_cat              category
+2. pro_pri              price
+3. pro_int_ref          internal reference
+4. pro_bar              bar code
+5. pro_cur_stk          current stock
+6. pro_stk_ale          stock alert
+7. pro_col              colour
+8. pro_lab              label
+9. pro_desc             description
+10. pro_date_add        date added
+11. pro_date_mod        date modified 
+12. pro_pho             photo file name
+13. pro_for_sale        'for sale' (value 1) / 'not for sale' (value 2)
+
+14. cus_name            customer name
+15. cus_fir_name        customer first name
+16. cus_address         customer address
+17. cus_pass            customer password
+18. cus_date_add
+
+18. qty_ordered         quantity ordered
+19. ord_date            order date
+20. discount            discount
+21. ship_date           date shipped
+22. del_date            delivery date
+23. ship_name           shipping name
+24. ship_address        shipping address
+
+25. pass_password            password
+26. pass_date_add       date password added
+27. pass_date_mod       date password modified
+
+28. sup_name            supplier name
+29. sup_address         supplier address
+30. sup_tel             supplier telephone
+31. sup_contact         supplier contact name
+
+32. emp_name            employee name
+33. emp_fir_name        employee first name
+34. emp_address         employee address
+35. emp_dept            employee department
+
+36. pro_sub_cat         product sub-category
+
+
+catégorie               category
+produit                 product
+fournisseur             supplier
+commercial              sales person/ sales representative (sales rep)
+paiements               payments
+livraisons              deliveries
+remise                  discount / reduction
+commande                order
+pourcentage             percentage
+le poste                post / position
+le magasin              shop / store
+le service              department
+le salaire brut annuel  gross salary
+l'ancienneté            years of service / length of service
+le sexe                 sex
+nombre des enfants      number of children
